@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scissors - URL Shortener</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <span class="logo=icon">✂️</span>
+            <span>SCISSOR</span>
+        </div>
+            <ul>
+                <li><a href="#">My URLs</a></li>
+                  <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                      <li><a href="#">Analytics</a></li>
+                        <li><a href="#">FAQs</a></li>
+<div class="nav-buttons">
+    <a href="#">Log in</a>
+    <button type="button">Try for free</button>
+</div>
+
+            </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Optimize Your Online Experience with our
+                
+                advanced <span>URLs shortening solution</span></h1>
+
+            <p>
+                Personalize your shortened URL to align with your brand identity.
+                Utilize custom slugs,
+                branded links and domain customization options to reinforce your brand presence and enhance user engagement.
+            </p>
+
+
+            <div class="hero-buttons">
+                <button>Sign Up</button>
+
+                <a href="#">Learn More</a>
+        </div>
+    </section>
+    <section class="stats-heading">
+        <h2>One Stop.<br>
+           four <span>possibilities.</span>
+        </h2>
+    </section>
+
+    <section class="features">
+    <div class="features-intro">
+        <h2>Why choose <span>Scissors</span></h2>
+        <p>
+            Scissors is the hub of everything that has to do with
+            your link management. We shorten URLs, create custom
+            URLs, generate QR codes and provide data analytics.
+        </p>
+    </div>
+
+    <div class="features-grid">
+        <div class="feature">
+            <div class="feature-icon">🔗</div>
+            <h3>URL Shortening</h3>
+            <p>
+                Shorten long URLs to make them easier to share
+                across different platforms.
+            </p>
+        </div>
+
+        <div class="feature">
+            <div class="feature-icon">✂️</div>
+            <h3>Custom URLs</h3>
+            <p>
+                Create custom URLs that match your brand
+                and make your links recognizable.
+            </p>
+        </div>
+
+        <div class="feature">
+            <div class="feature-icon">▦</div>
+            <h3>QR Codes</h3>
+            <p>
+                Generate QR codes for your shortened links
+                and share them with ease.
+            </p>
+        </div>
+
+        <div class="feature">
+            <div class="feature-icon">⌁</div>
+            <h3>Data Analytics</h3>
+            <p>
+                Monitor clicks and track the performance
+                of your shortened URLs.
+            </p>
+        </div>
+    </div>
+</section>
+<section class="pricing">
+    <h2>A <span>price perfect</span> for your needs.</h2>
+
+    <p class="pricing-description">
+        Choose the perfect plan for your needs.
+    </p>
+
+    <div class="pricing-container">
+
+        <div class="price-card">
+            <p>Basic</p>
+            <h3>Free</h3>
+            <p>Free plan for all users</p>
+
+            <ul>
+                <li>Unlimited URL shortening</li>
+                <li>Basic link analytics</li>
+                <li>Customizable URLs</li>
+                <li>Standard support</li>
+            </ul>
+        </div>
+
+        <div class="price-card professional">
+            <p>Professional</p>
+            <h3>$15/month</h3>
+            <p>Ideal for business creators</p>
+
+            <ul>
+                <li>Enhanced link analytics</li>
+                <li>Custom branded links</li>
+                <li>Advanced URL customization</li>
+                <li>Priority support</li>
+                <li>Ad-free experience</li>
+            </ul>
+        </div>
+
+        <div class="price-card">
+            <p>Teams</p>
+            <h3>$25/month</h3>
+            <p>Share with up to 10 users</p>
+
+            <ul>
+                <li>Team collaboration</li>
+                <li>Advanced analytics</li>
+                <li>Custom domains</li>
+                <li>Enhanced security</li>
+                <li>API access</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="pricing-buttons">
+        <button class="custom-pricing">Get Custom Pricing</button>
+        <button class="select-pricing">Select Pricing</button>
+    </div>
+</section>
+<section class="shortener">
+    <div class="shortener-form">
+
+        <input type="url" id="long-url" placeholder="Paste URL here...">
+
+        <div class="form-options">
+            <select id="domain">
+                <option value="">Choose Domain</option>
+                <option value="scissor.ly">scissor.ly</option>
+            </select>
+
+            <input type="text" id="alias" placeholder="Type Alias here">
+        </div>
+
+        <button type="button" id="trim-url">Trim URL</button>
+
+        <p>
+            By clicking Trim URL, I agree to the
+            <a href="#">Terms of Service</a>,
+            <a href="#">Privacy Policy</a> and
+            <a href="#">Use of Cookies</a>.
+        </p>
+
+        <p id="shortened-result"></p>
+
+    </div>
+</section>
+
+<section class="faqs">
+    <h2>FAQs</h2>
+
+    <div class="faq-container">
+
+        <div class="faq-item">
+            <button class="faq-question">
+                How does URL shortening work?
+                <span>+</span>
+            </button>
+            <p class="faq-answer">
+                URL shortening converts a long web address into
+                a shorter link that redirects users to the original URL.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Is it necessary to create an account to use the URL shortening service?
+                <span>+</span>
+            </button>
+            <p class="faq-answer">
+                You can use the available shortening features without
+                necessarily creating an account.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Are the shortened links permanent? Will they expire?
+                <span>+</span>
+            </button>
+            <p class="faq-answer">
+                Link availability depends on the service's policies
+                and the account or plan being used.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Are there any limitations on the number of URLs I can shorten?
+                <span>+</span>
+            </button>
+            <p class="faq-answer">
+                URL limits may depend on the plan you choose.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Can I customize the shortened URLs to reflect my brand or content?
+                <span>+</span>
+            </button>
+            <p class="faq-answer">
+                Yes, custom aliases can help make your shortened
+                links reflect your brand.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Can I track the performance of my shortened URLs?
+                <span>+</span>
+            </button>
+            <p class="faq-answer">
+                Analytics can help you monitor clicks and link performance.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                How secure is the URL shortening service?
+                <span>+</span>
+            </button>
+            <p class="faq-answer">
+                The service is designed to help users manage and share links securely.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                What is a QR code and when can I use it?
+                <span>+</span>
+            </button>
+            <p class="faq-answer">
+                A QR code is a scannable code that can direct users
+                to a webpage or other digital content.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Is there an API available for integrating the URL shortening service?
+                <span>+</span>
+            </button>
+            <p class="faq-answer">
+                API integration allows developers to connect
+                URL-shortening functionality to their applications.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section class="cta">
+    <h2>Revolutionizing Link Optimization</h2>
+    <button>Get Started</button>
+</section>
+
+<footer class="footer">
+
+    <div class="footer-logo">
+        <h3>✂ SCISSOR</h3>
+
+        <div class="social-links">
+            <a href="#">X</a>
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Facebook</a>
+        </div>
+    </div>
+
+    <div class="footer-column">
+        <h4>Why Scissor?</h4>
+        <a href="#">Scissor 101</a>
+        <a href="#">Integrations & API</a>
+        <a href="#">Pricing</a>
+    </div>
+
+    <div class="footer-column">
+        <h4>Solutions</h4>
+        <a href="#">Social Media</a>
+        <a href="#">Digital Marketing</a>
+        <a href="#">Customer Service</a>
+    </div>
+
+    <div class="footer-column">
+        <h4>Products</h4>
+        <a href="#">URL Shortener</a>
+        <a href="#">QR Codes</a>
+        <a href="#">Analytics</a>
+    </div>
+
+    <div class="footer-column">
+        <h4>Company</h4>
+        <a href="#">About Scissor</a>
+        <a href="#">Careers</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="footer-bottom">
+        <p>Terms of Service | Security | © Scissor 2023</p>
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
